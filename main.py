@@ -12,7 +12,7 @@ def play():
     computer = random.choice(['r','p','s'])
 
     # User Turn
-    user  = input("Your's turn: Rock(r), Paper(p) and Scissor(s)?")
+    user  = input("Your's turn: Rock(r), Paper(p) and Scissor(s)? ")
 
     # These lines print the choices.
     print("Computer Choose: " + computer)
